@@ -215,7 +215,7 @@ public class PlayerService implements Serializable {
             player.prepare();
             player.play();
             hoverOnClick = "empty";
-            activity.NotificationMedia("");//burada notification çağırılıyor ve oluşturuluyor bunu da ileride bir service taşı
+            activity.NotificationMedia("");
         }
     }
 

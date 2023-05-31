@@ -6,7 +6,6 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -17,7 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -64,7 +62,7 @@ public class PlayerActivity extends AppCompatActivity {
         pos = position;
 
         setSupportActionBar(binding.toolbarPLayer);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);//bu asıl yöntemdir.
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         myContext = getApplicationContext();
         tinydb = new TinyDB(getApplicationContext());
@@ -76,7 +74,7 @@ public class PlayerActivity extends AppCompatActivity {
         /****/
 
 
-       Log.e("theme",isDarkModeOn()+"");
+        Log.e("theme", isDarkModeOn() + "");
 
         getDatabaseFav();
 
@@ -128,7 +126,7 @@ public class PlayerActivity extends AppCompatActivity {
 
 
                     case R.id.action_settingsSong:
-                        Intent intent=new Intent(PlayerActivity.this,SettingsActivity.class);
+                        Intent intent = new Intent(PlayerActivity.this, SettingsActivity.class);
                         startActivity(intent);
                         break;
                 }
@@ -236,7 +234,7 @@ public class PlayerActivity extends AppCompatActivity {
             loadData(pos);
             player.setMediaItem(mediaItem);
             player.prepare();
-            if (player.isPlaying()){
+            if (player.isPlaying()) {
                 player.play();
             }
 
@@ -254,7 +252,7 @@ public class PlayerActivity extends AppCompatActivity {
             loadData(pos);
             player.setMediaItem(mediaItem);
             player.prepare();
-            if(player.isPlaying()){
+            if (player.isPlaying()) {
                 player.play();
 
             }
@@ -304,7 +302,6 @@ public class PlayerActivity extends AppCompatActivity {
         RecyclerView rv = alertView.findViewById(R.id.recyclerViewSpecific);
 
         rv.setLayoutManager(new LinearLayoutManager(PlayerActivity.this));
-        //listeyi ayarla
 
 
         temp = manager.getPlaylist(false);
@@ -423,8 +420,8 @@ public class PlayerActivity extends AppCompatActivity {
 
     public Boolean isDarkModeOn() {
         boolean mode;
-        int currentNightMode=getResources().getConfiguration().uiMode;
-        mode= currentNightMode == Configuration.UI_MODE_NIGHT_YES;
+        int currentNightMode = getResources().getConfiguration().uiMode;
+        mode = currentNightMode == Configuration.UI_MODE_NIGHT_YES;
 
         return mode;
     }

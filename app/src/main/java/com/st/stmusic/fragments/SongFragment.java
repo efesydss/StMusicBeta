@@ -118,7 +118,7 @@ public class SongFragment extends Fragment implements SearchView.OnQueryTextList
 
 
             }
-        }/**audioList adaptere yolla ve finish**/
+        }
         cursor.close();
 
 

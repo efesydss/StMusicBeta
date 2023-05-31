@@ -23,7 +23,7 @@ import com.st.stmusic.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     static Activity activity;
-    ActivityMainBinding binding;//testlocal git
+    ActivityMainBinding binding;
     private final int REQUEST_PERMISSION_READ_EXTERNAL_STORAGE = 0;
     private final int REQUEST_PERMISSION_WRITE_EXTERNAL_STORAGE = 1;
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);//testgitt
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.R) {
             if (!Environment.isExternalStorageManager()) {
                 Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);

@@ -180,12 +180,9 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongViewHolder
                                                                 notifyItemRemoved(position);
                                                                 /**
                                                                  * API 32 DE TEST EDİLMEDİ
-                                                                 * eğer yukarıdaki Dosya yöneticisi ile halletme bokunu api sdk 33 de çağırırsan Samsung cihazlar müzikleri Samsung isimli bir klasörde yinelenene kopyalama yapıyor
-                                                                 * yani tüm müzikleri kopyalayıp Samsung isimli bir klasörün içine tıkıyor sanırım bunu tüm şarkıları listelemek için yapıyor music de
-                                                                 * sende TÜm cihazdaki .mp3 uzantılı dosyaları okuyup, kopyalayıp, St isimli bir klasörde toplarsan sonrada sadece st isimli klasördeki göster dersen tüm müziklere erişeceksin ama stmusic dışındaki uygulamalar için fazladan  st isimli klasörde tüm şarkılar tekrar oluşturulacak kullanıcı sövecek  ama işimiz görülecek
-                                                                 * o nedenle bu tüm cihazdaki şarkıları okuma ve listeleme(yinelenmeden) işini zekice hallet orospu samsung gibi yapma ! saygılar efe soydas stmusic
-                                                                 *
-                                                                 * **/
+                                                                 * eğer yukarıdaki Dosya yöneticisi ile halletme bokunu api sdk 33 de çağırırsan Samsung cihazlar müzikleri Samsung isimli bir klasörde yinelenene kopyalama yapıyor.
+                                                                 * yani tüm müzikleri kopyalayıp Samsung isimli bir klasörün içine yeniden kopyalıyor sanırım bunu tüm şarkıları listelemek için yapıyor music de
+                                                                **/
 
 
                                                             }catch (Exception e){

@@ -131,16 +131,15 @@ public class PlaylistManager {
         songList.clear();
 
         getPlaylistSongs(playlistName);
-        for(int i = 0; i < songList.size();i++){//yedekleme
+        for(int i = 0; i < songList.size();i++){
             songListBackupForUpdate.add(songList.get(i));
         }
-        removePlaylist(playlistName);//silme işi
-        boolean sit= createPlaylist(newName);//yeni oluştur
-        for (int i =0;i< songListBackupForUpdate.size();i++){//yenisine datayı aktar
+        removePlaylist(playlistName);
+        boolean sit= createPlaylist(newName);
+        for (int i =0;i< songListBackupForUpdate.size();i++){
             addSongsToPlaylist(newName, songListBackupForUpdate.get(i));
         }
         return sit;
-        //sanırım bitti. test gerekli hayırr tinydb güncellenmedi herşey çöp olurrr..sadece anlık değişir yada güncellendi ama adapterin haberi yok sanırm adapter bozuk tinydb doğru gibi görünüyor
     }
 
     public void removeAllSongsThisPlaylist(String playlistName) {

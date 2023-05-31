@@ -46,7 +46,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnAttachStat
     public static NotificationManager nm;
     public static ActivityHomeBinding binding;
     public static ExoPlayer player;
-    //testgitlocalstudio
+
     static int firstTimeOpen = 0;
     static String firstTimeNotificate = "0";
     static int drawable = R.drawable.ic_pause;
@@ -63,7 +63,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnAttachStat
         binding = DataBindingUtil.setContentView(this, R.layout.activity_home);
         binding.toolbarPlaylist2.setTitle("");
         setSupportActionBar(binding.toolbarPlaylist2);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);//bu asıl yöntemdir.
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         try {
             service = new PlayerService(HomeActivity.this);
@@ -82,10 +82,10 @@ public class HomeActivity extends AppCompatActivity implements View.OnAttachStat
 
         if (PlayerService.getPlayer() != null) {
             if (Build.VERSION.SDK_INT > Build.VERSION_CODES.R) {
-                NotificationMedia("");//burada oyna
+                NotificationMedia("");
 
             } else {
-                NotificationMedia("");//olmassa aşşağıda comment prompt da eski cihazlar için olan var onu kullanırım
+                NotificationMedia("");
             }
         }
 
@@ -317,17 +317,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnAttachStat
         Bitmap pic = BitmapFactory.decodeResource(getResources(), R.drawable.ic_close);
 
 
-        //  MediaSessionCompat mediaSession = new MediaSessionCompat(getApplicationContext(), "session tag");
-
-        //MediaSessionCompat.Token token = mediaSession.getSessionToken();
-
-        // mediaStyle.setMediaSession(token);
         // Apply the layouts to the notification
         @SuppressLint("ResourceAsColor") Notification customNotification = new Notification.Builder(getApplicationContext()).setSmallIcon(R.drawable.ic_stmusic)//required
-                .addAction(previous).addAction(play).addAction(next).addAction(close).setOnlyAlertOnce(true).setLargeIcon(pic)//bu biraz boklu
+                .addAction(previous).addAction(play).addAction(next).addAction(close).setOnlyAlertOnce(true).setLargeIcon(pic)
                 .setStyle(new Notification.MediaStyle())//required//DecoratedMediaCustomViewStyle
                 .setAutoCancel(true).setContentTitle(service.getNotificationData()).setContentText(service.getNotificationTitle()).setColor(R.color.black).setBadgeIconType(1).setContentIntent(pendingIntent)
-                //.setContentIntent(pendingIntent)2. ye koy biri service biri activity olsun
+
                 .setChannelId("0")//unknown
 
                 .build();//required

@@ -59,7 +59,7 @@ public class ArtistFragment extends Fragment implements SearchView.OnQueryTextLi
                 @SuppressLint("Range") String dataForImage = cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.DATA));
                 model.add(new ArtistModel(artist, 1, Uri.parse(dataForImage)));
             }
-        }/**audioList adaptere yolla ve finish**/
+        }
         cursor.close();
 
 

@@ -41,10 +41,9 @@ public class PlaylistDetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_playlist_detail);
-        setSupportActionBar(binding.toolbarPlaylist3);//bunu ve
+        setSupportActionBar(binding.toolbarPlaylist3);
         binding.toolbarPlaylist3.setTitle("");
-        getSupportActionBar().setDisplayShowTitleEnabled(false);//bu asıl yöntemdir.
-        //çalışıyor sadece siyah temasal yanee:)
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         binding.toolbarPlaylist3.setNavigationIcon(R.drawable.ic_keyboard_backspace);
 
@@ -54,7 +53,7 @@ public class PlaylistDetailActivity extends AppCompatActivity {
         currentPlaylist = getIntent().getExtras().getString("currentPlaylist");
 
 
-        binding.toolbarPlaylist3.setNavigationOnClickListener(new View.OnClickListener() {//belki bu
+        binding.toolbarPlaylist3.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
@@ -138,7 +137,7 @@ public class PlaylistDetailActivity extends AppCompatActivity {
 
 
             }
-        }/**audioList adaptere yolla ve finish**/
+        }
         cursor.close();
 
 
