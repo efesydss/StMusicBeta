@@ -18,12 +18,11 @@
 <img alt="StMusicBeta Mockups" src="mockups/8.png"/>
 <br>
 
-
+<h3>Designer</h3><br>
 https://www.linkedin.com/in/efesydss/
 <br>
-
-<h3>Designer</h3><br>
-<h4>didemgdesign</h4>
+<h3>Designer</h3>
+<br>
 https://www.linkedin.com/in/didemgdesign/ 
 <br>
 https://www.instagram.com/didemgdesign/
