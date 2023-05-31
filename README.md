@@ -1,5 +1,5 @@
 # StMusicBeta
-<h1>Designed by Didem Güler</h1>
+<h1>Designed by Didem Güler & Developed by Efe Soydas</h1>
 <br>
 <img alt="StMusicBeta Mockups" src="mockups/1.png"/>
 <br>
@@ -18,6 +18,12 @@
 <img alt="StMusicBeta Mockups" src="mockups/8.png"/>
 <br>
 
+
+https://www.linkedin.com/in/efesydss/
+<br>
+
+<h3>Designer</h3><br>
+<h4>didemgdesign</h4>
 https://www.linkedin.com/in/didemgdesign/ 
 <br>
 https://www.instagram.com/didemgdesign/
