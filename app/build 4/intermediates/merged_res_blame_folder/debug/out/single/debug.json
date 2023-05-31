@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_replay.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_replay.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/xml_backup_rules.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxxhdpi_logo.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/menu_toolbar_songs_menu.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/menu/toolbar_songs_menu.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-anydpi-v26_logo.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-anydpi-v26/logo.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_more_vertcard.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_more_vertcard.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_property_1_play.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_property_1_play.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_liked.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_liked.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxxhdpi_logo_round.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxxhdpi/logo_round.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_repeatone.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_repeatone.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_stmusicdark.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_stmusicdark.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_round.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/round.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_fragment_song.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/fragment_song.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_rectangle_16.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_rectangle_16.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_logo_background.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/logo_background.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_artist_card.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/artist_card.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_menusongscard.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_menusongscard.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/menu_toolbar_playlist_menu.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/menu/toolbar_playlist_menu.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_thumb.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/thumb.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-hdpi_logo.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_skipprevious.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_skipprevious.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_fragment_favorites.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_song_card_alert_menu.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/song_card_alert_menu.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_favorites_card.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/favorites_card.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_add.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_fragment_artist.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/fragment_artist.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_backround.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_backround.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_activity_main.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/menu_toolbar_artist_menu.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/menu/toolbar_artist_menu.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_song_card.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/song_card.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_baseline_cloud_download_24.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_baseline_cloud_download_24.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_playlist_card.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/playlist_card.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_fragment_playlist.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/fragment_playlist.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_shuffle.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_shuffle.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/font_chivo.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/font/chivo.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_searchdark.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_searchdark.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_logo.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_logolayer.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/logolayer.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_repeat.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_custom_seekbar.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/custom_seekbar.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxhdpi_logo.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxhdpi/logo.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/font_chivo_bold.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/font/chivo_bold.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/font_chivo_light.ttf.flat",
+        "source": "com.st.stmusic.app-main-49:/font/chivo_light.ttf"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/menu_song_card_menu.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/menu/song_card_menu.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_stmusic.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_stmusic.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/menu_favorites_card_menu.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/menu/favorites_card_menu.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_baseline_error_outline_24.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_baseline_error_outline_24.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_line_2.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_line_2.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xhdpi_logo_round.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xhdpi/logo_round.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xxhdpi_logo_round.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xxhdpi/logo_round.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_property_1_pause.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_property_1_pause.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_heart.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-xhdpi_logo.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-xhdpi/logo.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-hdpi_logo_round.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-hdpi/logo_round.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/navigation_home_navigation.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/navigation/home_navigation.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-mdpi_logo_round.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-mdpi/logo_round.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_activity_home.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_skipnext.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_skipnext.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-anydpi-v26_logo_round.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-anydpi-v26/logo_round.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/mipmap-mdpi_logo.png.flat",
+        "source": "com.st.stmusic.app-main-49:/mipmap-mdpi/logo.png"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/layout_activity_player.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-merged_res-47:/drawable_ic_more_vert.xml.flat",
+        "source": "com.st.stmusic.app-main-49:/drawable/ic_more_vert.xml"
+    }
+]

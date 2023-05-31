@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/song_card.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/song_card.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/fragment_song.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/fragment_song.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/fragment_artist.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/fragment_artist.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/activity_player.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/activity_player.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/artist_card.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/artist_card.xml"
+    },
+    {
+        "merged": "com.st.stmusic.app-mergeDebugResources-46:/layout/activity_home.xml",
+        "source": "com.st.stmusic.app-main-49:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/favorites_card.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/favorites_card.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/activity_home.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/song_card_alert_menu.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/song_card_alert_menu.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/playlist_card.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/playlist_card.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/fragment_favorites.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-mergeDebugResources-46:/layout/fragment_playlist.xml",
+        "source": "/Users/ef/.gradle/daemon/7.3.3/com.st.stmusic.app-main-49:/layout/fragment_playlist.xml"
+    }
+]

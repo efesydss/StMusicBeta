@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/white"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/actionSettingsPlaylist"
+        android:title="@string/setting_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_create_playlist"
+        android:icon="@drawable/ic_add"
+        android:title="@string/todo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_searchdark"
+        android:title="@string/todo"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>

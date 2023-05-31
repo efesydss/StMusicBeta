@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/settingRecycler">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarManageTab"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:background="@color/toolbarBack"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:titleTextColor="@color/colorNav"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/manage_tab" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_settingbackk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarManageTab">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:buttonTint="@color/colorNav"
+                android:fontFamily="@font/chivo"
+                android:text="@string/favorites"
+                android:textColor="@color/colorNav"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:buttonTint="@color/colorNav"
+                android:fontFamily="@font/chivo"
+                android:text="@string/playlist"
+                android:textColor="@color/colorNav"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+                app:srcCompat="@drawable/settings_line" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:buttonTint="@color/colorNav"
+                android:fontFamily="@font/chivo"
+                android:text="@string/most_played"
+                android:textColor="@color/colorNav"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:buttonTint="@color/colorNav"
+                android:fontFamily="@font/chivo"
+                android:text="@string/last_added"
+                android:textColor="@color/colorNav"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:buttonTint="@color/colorNav"
+                android:fontFamily="@font/chivo"
+                android:text="@string/last_played"
+                android:textColor="@color/colorNav"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:buttonTint="@color/colorNav"
+                android:fontFamily="@font/chivo"
+                android:text="@string/artist"
+                android:textColor="@color/colorNav"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox"
+                app:srcCompat="@drawable/settings_line" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox6"
+                app:srcCompat="@drawable/settings_line" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+                app:srcCompat="@drawable/settings_line" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox4"
+                app:srcCompat="@drawable/settings_line" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+                app:srcCompat="@drawable/settings_line" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

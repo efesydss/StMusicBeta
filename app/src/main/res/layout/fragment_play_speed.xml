@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/settingRecycler">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarPlaySpeed"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/toolbarBack"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/colorNav"
+            app:title="@string/play_speed" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_rectangle_palyspeed"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarPlaySpeed">
+
+            <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btn050x"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingVertical="10dp"
+                        app:srcCompat="@drawable/btn050white"
+
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btn075x"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingVertical="10dp"
+                        app:srcCompat="@drawable/btn075white"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnDefaultSpeed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingVertical="10dp"
+                        app:srcCompat="@drawable/btndefaultwihte"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btn15x"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingVertical="10dp"
+                        app:srcCompat="@drawable/btn15white"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btn175x"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingVertical="10dp"
+                        app:srcCompat="@drawable/btn175white"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btn2x"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:paddingVertical="10dp"
+                        app:srcCompat="@drawable/btn2white"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnRestoreDefault"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:clickable="true"
+                        app:srcCompat="@drawable/ic_bttnpassive"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

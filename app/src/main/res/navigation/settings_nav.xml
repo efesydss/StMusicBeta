@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_nav"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.st.stmusic.fragments.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/goToSleepTimer"
+            app:destination="@id/sleepTimerFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/goToPlaySpeed"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:destination="@id/playSpeedFragment" />
+        <action
+            android:id="@+id/goToControlScreenFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:destination="@id/controlLockScreenFragment" />
+        <action
+            android:id="@+id/goToManageTabFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:destination="@id/manageTabFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sleepTimerFragment"
+        android:name="com.st.stmusic.fragments.SleepTimerFragment"
+        android:label="SleepTimerFragment" >
+        <action
+            android:id="@+id/backSleepTimer"
+            app:destination="@id/settingsFragment"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_out_right"
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/sleepTimerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/playSpeedFragment"
+        android:name="com.st.stmusic.fragments.PlaySpeedFragment"
+        android:label="PlaySpeedFragment" >
+        <action
+            android:id="@+id/backPlaySpeed"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/controlLockScreenFragment"
+        android:name="com.st.stmusic.ControlLockScreenFragment"
+        android:label="ControlLockScreenFragment" >
+        <action
+            android:id="@+id/backControlLockScreenFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageTabFragment"
+        android:name="com.st.stmusic.ManageTabFragment"
+        android:label="ManageTabFragment" >
+        <action
+            android:id="@+id/backToManageTabFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+</navigation>

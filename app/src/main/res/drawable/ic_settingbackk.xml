@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="326dp"
+    android:height="752dp"
+    android:viewportWidth="326"
+    android:viewportHeight="752">
+  <path
+      android:pathData="M50,0L276,0A50,50 0,0 1,326 50L326,702A50,50 0,0 1,276 752L50,752A50,50 0,0 1,0 702L0,50A50,50 0,0 1,50 0z"
+      android:fillColor="@color/settingRecycler"/>
+</vector>

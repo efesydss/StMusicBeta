@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">StMusic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+    <string name="channel_name">media</string>
+    <string name="toolbartitle" translatable="false"></string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="playlist">Playlist</string>
+    <string name="permission_check">Please Go to Settings and Allow Read Media Files.</string>
+    <string name="enter_name">Please Enter a Name</string>
+    <string name="timer_5_min">Timer created for 5 minutes.</string>
+    <string name="timer_10_min">Timer created for 10 minutes.</string>
+    <string name="timer_15_min">Timer created for 15 minutes.</string>
+    <string name="timer_30_min">Timer created for 30 minutes.</string>
+    <string name="timer_45_min">Timer created for 45 minutes.</string>
+    <string name="timer_1_hour">Timer created for 1 hour.</string>
+    <string name="play">Play</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="close">Close</string>
+    <string name="please_select_playlist">Please Select Playlist</string>
+    <string name="ok">Okey</string>
+    <string name="realtime_playlist_name">Realtime Playlist Name</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="do_you_want_skip_silence">Do You Want Skip Silence?</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="lock_screen_name">Lock Screen Control Center</string>
+    <string name="use">Use</string>
+    <string name="use_system_default">Use System Default</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="size">Size</string>
+    <string name="show_playlist">Show Playlists</string>
+    <string name="use_song_picture">Use Song Picture</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="manage_tab">Manage Tab</string>
+    <string name="favorites">Favorites</string>
+    <string name="most_played">Most Played</string>
+    <string name="last_added">Last Added</string>
+    <string name="last_played">Last Played</string>
+    <string name="artist">Artist</string>
+    <string name="play_speed">Play Speed</string>
+    <string name="setting_title">Settings</string>
+    <string name="slep_timer_title">Sleep Timer</string>
+    <string name="add_to_queue">Add to Queue</string>
+    <string name="play_from_now">Play From Now</string>
+    <string name="set_as_ringtone">Set as Ringtone</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="remove_this_playlist">Remove This Playlist</string>
+    <string name="item">Item</string>
+    <string name="sync_playlist">Sync Playlist</string>
+    <string name="delete_playlist">Delete Playlist</string>
+</resources>

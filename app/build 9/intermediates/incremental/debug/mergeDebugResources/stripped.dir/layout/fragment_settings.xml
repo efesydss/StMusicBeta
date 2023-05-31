@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="match_parent" android:tag="layout/fragment_settings_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:background="@color/black"
+            android:minHeight="?attr/actionBarSize"
+            android:text=""
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="Settings" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_settingbackk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarSettings">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnSleepTimer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_sleepti_mer"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnplaySpeed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_playspeed"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnSkipSilence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_skipsilence"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnControlScreen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_controllockscreen"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnManageTab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_managetab"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnThemeSwitch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_themeoff"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnAboutUS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_aboutus"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnContactUS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_contactus"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/btnDonateUS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/ic_donateus"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         
