@@ -1,6 +1,6 @@
 # StMusicBeta
 
-<img alt="StMusicBeta Mockups" src="1.png"/>
+<img alt="StMusicBeta Mockups" src="mockups/1.png"/>
 <br>
 Designed by Didem Güler
 https://www.linkedin.com/in/didemgdesign/
