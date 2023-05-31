@@ -1,6 +1,6 @@
 # StMusicBeta
 
-![StMusicBeta Mockups](Flying iPhone 12 6Mockup Left View.png)
+![StMusicBeta Mockups](1.png)
 Designed by Didem Güler
 https://www.linkedin.com/in/didemgdesign/
 https://www.instagram.com/didemgdesign/
